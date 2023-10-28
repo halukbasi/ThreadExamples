@@ -24,7 +24,6 @@ public class OddsEvens implements Runnable{
                 updatedList.remove(getList().get(randomNumber));
                 setList(updatedList);
             }
-//            System.out.println(Thread.currentThread().getName() + " newSet: " + newSet);
         }
 
         Iterator<Integer> itr = newSet.iterator();
